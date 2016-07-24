@@ -38,7 +38,7 @@ puts MyModel.sample.inspect # => nil
 puts MyModel.sample.inspect # => #<MyModel _id: 57954c1002182308d7000000, name: "Foo">
 ```
 
-### Sample a multiple documents
+### Sample multiple documents
 
 ```ruby
 require 'mongoid/sample'
